@@ -1,0 +1,70 @@
+.patient-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.patient-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.patient-info p {
+  margin: 10px 0;
+}
+
+.patient-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.patient-button:hover {
+  background-color: #218838;
+}
+
+.contact-input {
+  padding: 5px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.save-button,
+.cancel-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #c82333;
+}
+
+.edit-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.edit-icon:hover {
+  color: #0056b3;
+}

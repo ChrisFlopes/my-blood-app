@@ -1,0 +1,38 @@
+.manage-users-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.manage-users-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.manage-users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.manage-users-table th,
+.manage-users-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.manage-users-table th {
+  background-color: #f4f4f4;
+}
+
+.manage-users-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.user-role {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
