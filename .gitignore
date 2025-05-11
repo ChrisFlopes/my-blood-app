@@ -1,0 +1,24 @@
+# Ignore all environment files in the backend folder.
+backend/*.env
+
+# Ignore all logfiles and tempfiles in the backend folder.
+backend/log/*
+!backend/log/.keep
+backend/tmp/*
+!backend/tmp/.keep
+
+# Ignore pidfiles in the backend folder, but keep the directory.
+backend/tmp/pids/*
+!backend/tmp/pids/
+!backend/tmp/pids/.keep
+
+# Ignore storage (uploaded files in development and any SQLite databases) in the backend folder.
+backend/storage/*
+!backend/storage/
+!backend/storage/.keep
+
+# Ignore assets in the backend folder.
+backend/assets
+
+# Ignore master key for decrypting credentials in the backend folder.
+backend/config/master.key
